@@ -1,0 +1,147 @@
+body {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    /*font-family: 'Berkshire Swash', cursive;*/
+    /*titulo*/
+    font-family: 'Domine', serif;
+    /*parrafos*/
+
+}
+
+@media only screen and (min-width: 500px) {
+    .nombre {}
+}
+
+#navbarNav {
+    /*lista del navbar*/
+    margin-left: 26rem;
+    font-size: 20px;
+}
+
+.nombre {
+    /*nombre en el navbar y en el footer*/
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 37px;
+    font-weight: lighter;
+    margin-left: 3rem;
+}
+
+#hero-section {
+    /*seccion donde va la foto principal*/
+    text-align: center;
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 30px;
+    font-weight: bolder;
+    background-size: cover;
+    background-image: url("../img/mona-lisa-gato.png");
+    background-repeat: no-repeat;
+    padding: 10.25rem 8.12rem;
+    background-color: red;
+}
+
+
+#experiencia {
+    font-family: 'Domine', serif;
+    font-weight: bolder;
+    border: 2px solid #f366d4;
+    background-image: url("../img/servicio-al-cliente.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+#experiencia img {
+    text: center;
+}
+
+.carrusel {
+    background-color: #f366d4;
+}
+
+#carouselExampleIndicators img {
+
+    width: 100%;
+    height: 100%;
+    border: 2px solid #f366d4;
+    padding: 1rem;
+
+}
+
+
+ol li {
+    width: 10px;
+    height: 10px;
+    border-radius: 50% 50% 50% 50%;
+}
+
+#galeria {
+    border: 2px solid #f366d4;
+    margin-top: 2rem;
+
+
+}
+
+.card-deck {
+    /*grupo de galeria*/
+    margin: 1rem;
+    font-family: 'Domine', serif;
+}
+
+#contacto {
+    /*DIV DE CONTACTO Y SU BORDE*/
+    border: 2px double #f366d4;
+    background-image: url("../img/desktop-image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 30px;
+    font-weight: bolder;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+#redes {
+    /*ICONOS DE RRSS */
+    /*ICONOS DEL FOOTER*/
+    padding-top: 2rem;
+}
+
+
+.line {
+    /*LINEA DIVISORIA*/
+    border: 2px solid orange;
+    margin-left: 20rem;
+    margin-right: 20rem;
+
+
+}
+
+.subtitulo {
+    /*SUBTITULO DE CADA SECCION*/
+    text-align: center;
+    font-family: 'Domine', serif;
+    font-weight: bolder;
+    padding-bottom: 2rem;
+    text-decoration: underline;
+    color: black;
+    padding-top: 2rem;
+
+}
+
+
+li {
+    /*CADA ITEM DE LAS LISTAS*/
+    list-style: none;
+    display: inline-block;
+    padding: 1rem;
+}
+
+.btn {
+    /*BOTON DEL FORMULARIO*/
+    border: 2px solid #f366d4;
+}
