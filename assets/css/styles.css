@@ -9,8 +9,17 @@ body {
 
 }
 
-@media only screen and (min-width: 500px) {
-    .nombre {}
+@media only screen and (min-width: 600px) {
+    .nombre {
+        text-align: center;
+        font-size: 20px;
+
+    }
+
+    .subtitulo {
+        text-align: center;
+        font-size: 20px;
+    }
 }
 
 #navbarNav {
@@ -33,18 +42,19 @@ body {
     font-family: 'Berkshire Swash', cursive;
     font-size: 30px;
     font-weight: bolder;
-    background-size: cover;
-    background-image: url("../img/mona-lisa-gato.png");
+    background-size: inherit;
+    background-image: url("../img/perfil-con-gato.jpg");
     background-repeat: no-repeat;
-    padding: 10.25rem 8.12rem;
-    background-color: red;
+    padding: 11rem 8.12rem;
+    background-color: #e6a84b;
+    padding-left: 30rem;
 }
 
 
 #experiencia {
     font-family: 'Domine', serif;
     font-weight: bolder;
-    border: 2px solid #f366d4;
+    border: 2px solid #e6a84b;
     background-image: url("../img/servicio-al-cliente.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -54,19 +64,46 @@ body {
     margin-bottom: 2rem;
 }
 
-#experiencia img {
-    text: center;
+
+@media only screen and (max-width: 600px) {
+
+    /*para que se alinee las imagenes de "experiencia" en pantallas inferiores a 600px*/
+    #experiencia img {
+        display: block;
+        padding-top: 1rem;
+        text-align: center;
+        width: 100%;
+        height: 100%;
+    }
+
 }
 
-.carrusel {
-    background-color: #f366d4;
+
+@media only screen and (max-width:600px) {
+
+    /*para que desaparezca la presentacion en pantallas inferiores a 600px*/
+    #presentacion {
+        display: none;
+    }
 }
+
+
+@media only screen and (max-width: 600px) {
+    /*para que desaparezca el carrusel en pantallas inferiores a 600px*/
+
+    .carrusel {
+        display: none;
+    }
+
+}
+
+
 
 #carouselExampleIndicators img {
 
     width: 100%;
     height: 100%;
-    border: 2px solid #f366d4;
+    border: 2px solid #e6a84b;
     padding: 1rem;
 
 }
@@ -79,7 +116,8 @@ ol li {
 }
 
 #galeria {
-    border: 2px solid #f366d4;
+    /*CONTENEDOR DEL CAR DECK*/
+    background-color: #e6a84b;
     margin-top: 2rem;
 
 
@@ -93,7 +131,7 @@ ol li {
 
 #contacto {
     /*DIV DE CONTACTO Y SU BORDE*/
-    border: 2px double #f366d4;
+    border: 2px double #e6a84b;
     background-image: url("../img/desktop-image.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -109,6 +147,11 @@ ol li {
     /*ICONOS DE RRSS */
     /*ICONOS DEL FOOTER*/
     padding-top: 2rem;
+    color: #ffffff;
+}
+
+.fab {
+    color: #ffffff;
 }
 
 
@@ -143,5 +186,7 @@ li {
 
 .btn {
     /*BOTON DEL FORMULARIO*/
-    border: 2px solid #f366d4;
+    border: 2px solid #e6a84b;
 }
+
+@media only screen and (max-width: 600px) {}
